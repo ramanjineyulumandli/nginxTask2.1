@@ -1,7 +1,7 @@
 name: Install Nginx
 on:
     push:
-        branches=["main"]
+        branches: ["main"]
 jobs:
     install-nginx:
         runs-on: ubuntu-latest
