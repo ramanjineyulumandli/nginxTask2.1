@@ -12,5 +12,5 @@ jobs:
             run: sudo apt-get update-y
           - name: install Nginx
             run: sudo apt-get install nginx -y 
-          - name:Verify Nginx
+          - name: Verify Nginx
             run: nginx -v 
